@@ -23,7 +23,7 @@ public class DataController {
     @GetMapping("/version")
     public String version() {
 
-        return "La version Actual es 1.0.0_laland";
+        return "La version Actual es 1.0.0";
 
     }
 
@@ -78,7 +78,6 @@ public class DataController {
     }
 
     @GetMapping("/airlines")
-
     public JsonNode getRandomAirlines() {
 
         var objectMapper = new ObjectMapper();
