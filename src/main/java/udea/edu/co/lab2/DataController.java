@@ -23,7 +23,7 @@ public class DataController {
     @GetMapping("/version")
     public String version() {
 
-        return "La version Actual es 1.0.0";
+        return "La version Actual es 1.0.0_laland";
 
     }
 
