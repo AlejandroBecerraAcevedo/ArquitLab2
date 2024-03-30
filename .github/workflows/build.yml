@@ -44,7 +44,7 @@ jobs:
 
         with:
 
-          java-version: '11'
+          java-version: '21'
 
       #Set up Maven cache
 
